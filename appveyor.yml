@@ -6,9 +6,7 @@ environment:
       CMD_IN_ENV: "cmd /E:ON /V:ON /C .\\ci-helpers\\appveyor\\windows_sdk.cmd"
       PYTHON_ARCH: "64"
 
-      CONDA_DEPENDENCIES: "Cython"
-
-      CONDA_CHANNELS: "jinja2 pyqt"
+      CONDA_DEPENDENCIES: "jinja2"
 
   matrix:
 
