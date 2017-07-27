@@ -34,4 +34,4 @@ install:
 build: false
 
 test_script:
-    - "powershell build_packages.ps1"
+    - "powershell ./build_packages.ps1"
