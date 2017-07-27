@@ -1,5 +1,5 @@
+# Show which commands are being run
 Set-PSDebug -Trace 1
-Get-ChildItem Env:
 
 # Switch to root environment to have access to conda-build
 activate root
