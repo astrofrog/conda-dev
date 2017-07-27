@@ -5,11 +5,9 @@ environment:
       MINICONDA_VERSION: "latest"
       CMD_IN_ENV: "cmd /E:ON /V:ON /C .\\ci-helpers\\appveyor\\windows_sdk.cmd"
       PYTHON_ARCH: "64"
-
-      CONDA_DEPENDENCIES: "jinja2"
+      CONDA_DEPENDENCIES: "jinja2 pyqt"
 
   matrix:
-
       - PYTHON_VERSION: "2.7"
 
 platform:
