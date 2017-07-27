@@ -1,6 +1,9 @@
+Set-PSDebug -Trace 1
+
 # Switch to root environment to have access to conda-build
 activate root
-conda install conda-build=2 anaconda-client
+
+conda install -n root conda-build=2 anaconda-client
 
 # Don't auto-upload, instead we upload manually specifying a token
 conda config --set anaconda_upload no
